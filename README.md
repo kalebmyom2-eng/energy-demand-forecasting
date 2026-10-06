@@ -48,7 +48,7 @@ The weekly improvement gate failed. Only eight monthly test observations are ava
 
 EIA ERCO daily demand from [EIA's daily regional endpoint](https://www.eia.gov/opendata/browser/electricity/rto/daily-region-data), with daily ERA5 weather for Houston, Dallas, Austin and San Antonio from [Open-Meteo](https://open-meteo.com/en/docs/historical-weather-api). Credit Open-Meteo and Copernicus/ECMWF ERA5. Dates: January 2019–August 2026; 2,800 calendar days, 2,799 demand observations. December 5, 2025 remains missing. Retrieved September 28, 2026.
 
-Raw JSON is preserved in data/raw/v2; curated daily data is data/processed/daily_v2.csv; normalized SQLite tables are data/energy_v2.sqlite. Data hashes and overlap revisions are recorded. Exact day-boundary semantics, source vintages and operational release delays still require validation.
+Raw JSON is preserved in data/raw/v2; curated daily data is data/processed/daily_v2.csv; normalized SQLite tables are generated locally at data/energy_v2.sqlite when the pipeline runs. Data hashes and overlap revisions are recorded. Exact day-boundary semantics, source vintages and operational release delays still require validation.
 
 ## Time-aware experiment
 
@@ -86,7 +86,7 @@ Run notebook cells in order. The beginner model uses an assumed average January 
 | `data/` | Public-source snapshots, prepared tables and SQLite databases |
 | `reports/` | Metrics, charts and conclusions; `v2/` is the advanced study |
 | `docs/` | Learning plan, experiment protocol, data dictionary and model card |
-| `models/` | Small local model artifact used by the prediction demo |
+| `models/` | Model manifest; the pipeline rebuilds the excluded model artifact locally |
 
 See [data provenance and reuse](data/README.md). Only load serialized model artifacts from a source you trust.
 
@@ -118,6 +118,8 @@ sh scripts/download_v2.sh
 ```
 
 ## Delivery boundaries
+
+Run `python scripts/run_lifecycle.py` to generate the excluded model artifact and SQLite databases locally.
 
 models/v2/forecast_bundle.joblib contains trusted local models, preprocessing and climate references. September 2026 files in reports/v2/inference_demo are a historical forecast from August 31, not a current forecast. Their 31-day path includes a partial October period. Coherent totals of one daily path are distinct from independently selected weekly/monthly products. Partial periods are labeled; selected products follow their evaluated issue schedules.
 

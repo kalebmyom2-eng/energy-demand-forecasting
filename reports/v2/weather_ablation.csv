@@ -1,0 +1,10 @@
+scale,family,weather_mae_change_pct
+daily,ridge_1,8.07811487774237
+daily,ridge_100,7.741611574681095
+daily,trees,4.331242948683189
+weekly,ridge_1,4.129018863045308
+weekly,ridge_100,3.8700004124519793
+weekly,trees,4.048085902689746
+monthly,ridge_1,-5.196630719276896
+monthly,ridge_100,-5.310157233100144
+monthly,trees,11.08182004107212

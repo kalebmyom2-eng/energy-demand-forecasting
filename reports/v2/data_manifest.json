@@ -1,0 +1,13 @@
+{
+  "retrieved": "2026-09-28",
+  "dates": 2800,
+  "observed_demand": 2799,
+  "missing_demand_dates": [
+    "2025-12-05"
+  ],
+  "overlap_revisions": 0,
+  "raw_sha256": {
+    "weather.json": "83674c6a0f63565bd579384b8bedbdc7f331fba62df0389c3a79c363c8e2edc3",
+    "eia.json": "fb18de6e9a1f1a05211e557292ad8de7ddeefa4ab5c14aee9c0ddb9c432440d4"
+  }
+}

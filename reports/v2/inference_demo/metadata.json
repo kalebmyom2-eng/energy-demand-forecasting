@@ -1,0 +1,11 @@
+{
+  "issue_date": "2026-08-31",
+  "trained_through": "2026-08-31",
+  "coherent_path_model": "persistence",
+  "product_models": {
+    "daily": "persistence",
+    "monthly": "ridge_100_weather",
+    "weekly": "repeat_week"
+  },
+  "note": "Historical-snapshot demonstration. Coherent path totals and independently selected products differ by design. Partial periods are labeled. Intervals are calibrated on 2025, not a coverage guarantee."
+}

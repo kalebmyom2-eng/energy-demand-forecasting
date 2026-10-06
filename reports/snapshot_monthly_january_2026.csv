@@ -1,0 +1,2 @@
+month,days,forecast_mwh,daily_path_model
+2026-01,31,38483340.86485974,ridge_calendar

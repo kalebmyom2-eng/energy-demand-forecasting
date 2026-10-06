@@ -1,0 +1,9 @@
+year,days_in_snapshot,observed_demand_days,missing_demand_days,incomplete_weather_days
+2019,365,365,0,0
+2020,366,366,0,0
+2021,365,365,0,0
+2022,365,365,0,0
+2023,365,365,0,0
+2024,366,366,0,0
+2025,365,364,1,0
+2026,243,243,0,0

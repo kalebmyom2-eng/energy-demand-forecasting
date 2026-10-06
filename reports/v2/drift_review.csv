@@ -1,0 +1,4 @@
+feature,reference_mean,test_mean,standardized_mean_shift,note
+demand_mwh,1168217.1768388106,1414592.12345679,1.1389749788031827,Seasonality confounds this crude drift indicator; review against matching seasons.
+temp,21.270629644114198,22.82767489711934,0.2005100343082358,Seasonality confounds this crude drift indicator; review against matching seasons.
+humidity,68.0556315995307,68.27263374485597,0.017921786334411226,Seasonality confounds this crude drift indicator; review against matching seasons.

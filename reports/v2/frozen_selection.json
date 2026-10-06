@@ -1,0 +1,12 @@
+{
+  "selection_folds": [
+    2022,
+    2023
+  ],
+  "protocol_sha256": "2f4dd1d848de7c8c3d9cf22e7f125a47451587daa6a458e92dc22213fdaf5524",
+  "models": {
+    "daily": "persistence",
+    "monthly": "ridge_100_weather",
+    "weekly": "repeat_week"
+  }
+}

@@ -1,0 +1,7 @@
+date,demand_mwh,temp,humidity,weather_cities_present,reason
+2021-02-12,1433700.0,0.22499999999999998,81.0,4,more than six rolling robust scales from prior median; retained
+2021-02-14,1498333.0,-3.125,81.5,4,more than six rolling robust scales from prior median; retained
+2022-01-20,1317106.0,3.6,51.0,4,more than six rolling robust scales from prior median; retained
+2022-01-21,1309038.0,3.125,38.75,4,more than six rolling robust scales from prior median; retained
+2022-02-04,1500639.0,-1.175,70.0,4,more than six rolling robust scales from prior median; retained
+2022-12-23,1654628.0,-5.45,40.25,4,more than six rolling robust scales from prior median; retained

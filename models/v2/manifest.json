@@ -1,0 +1,20 @@
+{
+  "cutoff": "2026-08-31",
+  "demand_lag_days": 1,
+  "weather_lag_days": 7,
+  "winners": {
+    "daily": "persistence",
+    "monthly": "ridge_100_weather",
+    "weekly": "repeat_week"
+  },
+  "interval_widths": {
+    "daily": 149173.0,
+    "monthly": 3254675.226426497,
+    "weekly": 1634468.0
+  },
+  "version": "2",
+  "protocol_sha256": "2f4dd1d848de7c8c3d9cf22e7f125a47451587daa6a458e92dc22213fdaf5524",
+  "python": "3.13.9",
+  "sklearn": "1.7.2",
+  "input_sha256": "0d683883c3f5ab2dde8d07fc6236fdf2c7b99ea3b19873770e7a650bd6f0053b"
+}

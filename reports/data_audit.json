@@ -1,0 +1,15 @@
+{
+  "rows": 2557,
+  "columns": 18,
+  "start": "2019-01-01",
+  "end": "2025-12-31",
+  "duplicate_demand_dates": 0,
+  "missing_dates": [
+    "2025-12-05"
+  ],
+  "missing_weather_values": 0,
+  "nonpositive_demand_values": 0,
+  "demand_min_mwh": 787264.0,
+  "demand_max_mwh": 1739798.0,
+  "note": "Structural validation only; outliers, reporting revisions, and day-boundary alignment need further investigation."
+}

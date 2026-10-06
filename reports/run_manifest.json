@@ -1,0 +1,12 @@
+{
+  "python": "3.13.9",
+  "pandas": "2.3.3",
+  "numpy": "2.3.5",
+  "sklearn": "1.7.2",
+  "selected_models": {
+    "daily": "ridge_calendar",
+    "monthly": "ridge_calendar",
+    "weekly": "ridge_calendar"
+  },
+  "data_sha256": "0e44cb8dc41a621d77094883cf6635715efb7414894ea0463a2ef6b708d5db0d"
+}

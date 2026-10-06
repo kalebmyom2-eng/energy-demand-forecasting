@@ -1,0 +1,19 @@
+__pycache__/
+.ipynb_checkpoints/
+.mplconfig/
+.cache/
+.venv/
+.DS_Store
+
+# Local environments, credentials and machine-specific logs
+.env
+.env.*
+!.env.example
+venv/
+*.pem
+*.key
+*.log
+
+# Rebuilt from the included public-source snapshots
+data/*.sqlite
+models/**/*.joblib

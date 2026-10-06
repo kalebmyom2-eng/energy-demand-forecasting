@@ -1,0 +1,10 @@
+{
+  "mean_daily_mae_gain_mwh": 22240.95061728395,
+  "block_bootstrap_95pct_mwh": [
+    9785.934465020577,
+    37667.60288065843
+  ],
+  "block_days": 7,
+  "resamples": 1000,
+  "caution": "Descriptive stability interval, not proof across unseen regimes."
+}
